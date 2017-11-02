@@ -1,0 +1,148 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ConfigParser	../Adafruit_Video_Looper/video_looper.py	/^import ConfigParser$/;"	kind:namespace	line:4
+ContextualZipFile	../ez_setup.py	/^    class ContextualZipFile(zipfile.ZipFile):$/;"	kind:class	line:71
+DEFAULT_URL	../ez_setup.py	/^DEFAULT_URL = "https:\/\/pypi.python.org\/packages\/source\/s\/setuptools\/"$/;"	kind:variable	line:35
+DEFAULT_VERSION	../ez_setup.py	/^DEFAULT_VERSION = "3.5.1"$/;"	kind:variable	line:34
+DirectoryReader	../Adafruit_Video_Looper/directory.py	/^class DirectoryReader(object):$/;"	kind:class	line:4
+HelloVideoPlayer	../Adafruit_Video_Looper/hello_video.py	/^class HelloVideoPlayer(object):$/;"	kind:class	line:9
+OMXPlayer	../Adafruit_Video_Looper/omxplayer.py	/^class OMXPlayer(object):$/;"	kind:class	line:9
+Playlist	../Adafruit_Video_Looper/model.py	/^class Playlist(object):$/;"	kind:class	line:6
+Playlist	../Adafruit_Video_Looper/video_looper.py	/^from model import Playlist$/;"	kind:namespace	line:14
+USBDriveMounter	../Adafruit_Video_Looper/usb_drive.py	/^from usb_drive_mounter import USBDriveMounter$/;"	kind:namespace	line:6
+USBDriveMounter	../Adafruit_Video_Looper/usb_drive_mounter.py	/^class USBDriveMounter(object):$/;"	kind:class	line:11
+USBDriveReader	../Adafruit_Video_Looper/usb_drive.py	/^class USBDriveReader(object):$/;"	kind:class	line:9
+USER_SITE	../ez_setup.py	/^    USER_SITE = None$/;"	kind:variable	line:32
+USER_SITE	../ez_setup.py	/^    from site import USER_SITE$/;"	kind:namespace	line:30
+VideoLooper	../Adafruit_Video_Looper/video_looper.py	/^class VideoLooper(object):$/;"	kind:class	line:40
+__enter__	../ez_setup.py	/^        def __enter__(self):$/;"	kind:member	line:72
+__exit__	../ez_setup.py	/^        def __exit__(self, type, value, traceback):$/;"	kind:member	line:74
+__init__	../Adafruit_Video_Looper/directory.py	/^    def __init__(self, config):$/;"	kind:member	line:6
+__init__	../Adafruit_Video_Looper/hello_video.py	/^    def __init__(self, config):$/;"	kind:member	line:11
+__init__	../Adafruit_Video_Looper/model.py	/^    def __init__(self, movies, is_random):$/;"	kind:member	line:9
+__init__	../Adafruit_Video_Looper/omxplayer.py	/^    def __init__(self, config):$/;"	kind:member	line:11
+__init__	../Adafruit_Video_Looper/usb_drive.py	/^    def __init__(self, config):$/;"	kind:member	line:11
+__init__	../Adafruit_Video_Looper/usb_drive_mounter.py	/^    def __init__(self, root='\/mnt\/usbdrive', readonly=False):$/;"	kind:member	line:14
+__init__	../Adafruit_Video_Looper/video_looper.py	/^    def __init__(self, config_path):$/;"	kind:member	line:42
+__init__.py	../Adafruit_Video_Looper/__init__.py	1;"	kind:file	line:1
+_animate_countdown	../Adafruit_Video_Looper/video_looper.py	/^    def _animate_countdown(self, playlist, seconds=10):$/;"	kind:member	line:150
+_blank_screen	../Adafruit_Video_Looper/video_looper.py	/^    def _blank_screen(self):$/;"	kind:member	line:136
+_build_egg	../ez_setup.py	/^def _build_egg(egg, archive_filename, to_dir):$/;"	kind:function	line:56
+_build_install_args	../ez_setup.py	/^def _build_install_args(options):$/;"	kind:function	line:290
+_build_playlist	../Adafruit_Video_Looper/video_looper.py	/^    def _build_playlist(self):$/;"	kind:member	line:106
+_clean_check	../ez_setup.py	/^def _clean_check(cmd, target):$/;"	kind:function	line:151
+_do_download	../ez_setup.py	/^def _do_download(version, download_base, to_dir, download_delay):$/;"	kind:function	line:102
+_idle_message	../Adafruit_Video_Looper/video_looper.py	/^    def _idle_message(self):$/;"	kind:member	line:179
+_install	../ez_setup.py	/^def _install(archive_filename, install_args=()):$/;"	kind:function	line:45
+_is_number	../Adafruit_Video_Looper/video_looper.py	/^    def _is_number(iself, s):$/;"	kind:member	line:99
+_load_config	../Adafruit_Video_Looper/directory.py	/^    def _load_config(self, config):$/;"	kind:member	line:12
+_load_config	../Adafruit_Video_Looper/hello_video.py	/^    def _load_config(self, config):$/;"	kind:member	line:18
+_load_config	../Adafruit_Video_Looper/omxplayer.py	/^    def _load_config(self, config):$/;"	kind:member	line:18
+_load_config	../Adafruit_Video_Looper/usb_drive.py	/^    def _load_config(self, config):$/;"	kind:member	line:22
+_load_file_reader	../Adafruit_Video_Looper/video_looper.py	/^    def _load_file_reader(self):$/;"	kind:member	line:93
+_load_player	../Adafruit_Video_Looper/video_looper.py	/^    def _load_player(self):$/;"	kind:member	line:87
+_parse_args	../ez_setup.py	/^def _parse_args():$/;"	kind:function	line:296
+_prepare_to_run_playlist	../Adafruit_Video_Looper/video_looper.py	/^    def _prepare_to_run_playlist(self, playlist):$/;"	kind:member	line:195
+_print	../Adafruit_Video_Looper/video_looper.py	/^    def _print(self, message):$/;"	kind:member	line:82
+_python_cmd	../ez_setup.py	/^def _python_cmd(*args):$/;"	kind:function	line:37
+_render_text	../Adafruit_Video_Looper/video_looper.py	/^    def _render_text(self, message, font=None):$/;"	kind:member	line:141
+archive_context	../ez_setup.py	/^def archive_context(filename):$/;"	kind:function	line:81
+author	../setup.py	/^      author            = 'Tony DiCola',$/;"	kind:variable	line:7
+author_email	../setup.py	/^      author_email      = 'tdicola@adafruit.com',$/;"	kind:variable	line:8
+config_path	../Adafruit_Video_Looper/video_looper.py	/^    config_path = '\/boot\/video_looper.ini'$/;"	kind:variable	line:242
+contextlib	../ez_setup.py	/^import contextlib$/;"	kind:namespace	line:25
+create_file_reader	../Adafruit_Video_Looper/directory.py	/^def create_file_reader(config):$/;"	kind:function	line:33
+create_file_reader	../Adafruit_Video_Looper/usb_drive.py	/^def create_file_reader(config):$/;"	kind:function	line:44
+create_player	../Adafruit_Video_Looper/hello_video.py	/^def create_player(config):$/;"	kind:function	line:67
+create_player	../Adafruit_Video_Looper/omxplayer.py	/^def create_player(config):$/;"	kind:function	line:74
+description	../setup.py	/^      description       = 'Application to turn your Raspberry Pi into a dedicated looping video playback device, good for art installations, information displays, or just playing cat videos all day.',$/;"	kind:variable	line:9
+directory.py	../Adafruit_Video_Looper/directory.py	1;"	kind:file	line:1
+download_file_curl	../ez_setup.py	/^def download_file_curl(url, target):$/;"	kind:function	line:192
+download_file_insecure	../ez_setup.py	/^def download_file_insecure(url, target):$/;"	kind:function	line:228
+download_file_powershell	../ez_setup.py	/^def download_file_powershell(url, target):$/;"	kind:function	line:163
+download_file_wget	../ez_setup.py	/^def download_file_wget(url, target):$/;"	kind:function	line:210
+download_setuptools	../ez_setup.py	/^def download_setuptools(version=DEFAULT_VERSION, download_base=DEFAULT_URL,$/;"	kind:function	line:265
+drive_mounter	../Adafruit_Video_Looper/usb_drive_mounter.py	/^    drive_mounter = USBDriveMounter(readonly=True)$/;"	kind:variable	line:72
+ez_setup.py	../ez_setup.py	1;"	kind:file	line:1
+find_packages	../setup.py	/^from setuptools import setup, find_packages$/;"	kind:namespace	line:3
+get_best_downloader	../ez_setup.py	/^def get_best_downloader():$/;"	kind:function	line:253
+get_next	../Adafruit_Video_Looper/model.py	/^    def get_next(self):$/;"	kind:member	line:15
+get_zip_class	../ez_setup.py	/^def get_zip_class():$/;"	kind:function	line:67
+glob	../Adafruit_Video_Looper/usb_drive.py	/^import glob$/;"	kind:namespace	line:4
+glob	../Adafruit_Video_Looper/usb_drive_mounter.py	/^import glob$/;"	kind:namespace	line:4
+has_curl	../ez_setup.py	/^def has_curl():$/;"	kind:function	line:196
+has_powershell	../ez_setup.py	/^def has_powershell():$/;"	kind:function	line:176
+has_wget	../ez_setup.py	/^def has_wget():$/;"	kind:function	line:214
+hello_video.py	../Adafruit_Video_Looper/hello_video.py	1;"	kind:file	line:1
+idle_message	../Adafruit_Video_Looper/directory.py	/^    def idle_message(self):$/;"	kind:member	line:28
+idle_message	../Adafruit_Video_Looper/usb_drive.py	/^    def idle_message(self):$/;"	kind:member	line:39
+importlib	../Adafruit_Video_Looper/video_looper.py	/^import importlib$/;"	kind:namespace	line:5
+install_requires	../setup.py	/^      install_requires  = ['pyudev'],$/;"	kind:variable	line:12
+is_changed	../Adafruit_Video_Looper/directory.py	/^    def is_changed(self):$/;"	kind:member	line:19
+is_changed	../Adafruit_Video_Looper/usb_drive.py	/^    def is_changed(self):$/;"	kind:member	line:33
+is_playing	../Adafruit_Video_Looper/hello_video.py	/^    def is_playing(self):$/;"	kind:member	line:40
+is_playing	../Adafruit_Video_Looper/omxplayer.py	/^    def is_playing(self):$/;"	kind:member	line:47
+length	../Adafruit_Video_Looper/model.py	/^    def length(self):$/;"	kind:member	line:37
+license	../setup.py	/^      license           = 'GNU GPLv2',$/;"	kind:variable	line:10
+log	../ez_setup.py	/^from distutils import log$/;"	kind:namespace	line:27
+main	../ez_setup.py	/^def main():$/;"	kind:function	line:321
+model.py	../Adafruit_Video_Looper/model.py	1;"	kind:file	line:1
+mount_all	../Adafruit_Video_Looper/usb_drive_mounter.py	/^    def mount_all(self):$/;"	kind:member	line:31
+omxplayer.py	../Adafruit_Video_Looper/omxplayer.py	1;"	kind:file	line:1
+optparse	../ez_setup.py	/^import optparse$/;"	kind:namespace	line:21
+os	../Adafruit_Video_Looper/hello_video.py	/^import os$/;"	kind:namespace	line:4
+os	../Adafruit_Video_Looper/omxplayer.py	/^import os$/;"	kind:namespace	line:4
+os	../Adafruit_Video_Looper/video_looper.py	/^import os$/;"	kind:namespace	line:6
+os	../ez_setup.py	/^import os$/;"	kind:namespace	line:16
+packages	../setup.py	/^      packages          = find_packages())$/;"	kind:variable	line:13
+pkg_resources	../ez_setup.py	/^        import pkg_resources$/;"	kind:namespace	line:126
+platform	../ez_setup.py	/^import platform$/;"	kind:namespace	line:23
+play	../Adafruit_Video_Looper/hello_video.py	/^    def play(self, movie, loop=False, **kwargs):$/;"	kind:member	line:27
+play	../Adafruit_Video_Looper/omxplayer.py	/^    def play(self, movie, loop=False, vol=0):$/;"	kind:member	line:30
+poll_changes	../Adafruit_Video_Looper/usb_drive_mounter.py	/^    def poll_changes(self):$/;"	kind:member	line:56
+pygame	../Adafruit_Video_Looper/video_looper.py	/^import pygame$/;"	kind:namespace	line:12
+pyudev	../Adafruit_Video_Looper/usb_drive_mounter.py	/^import pyudev$/;"	kind:namespace	line:8
+random	../Adafruit_Video_Looper/model.py	/^import random$/;"	kind:namespace	line:4
+re	../Adafruit_Video_Looper/video_looper.py	/^import re$/;"	kind:namespace	line:7
+remove_all	../Adafruit_Video_Looper/usb_drive_mounter.py	/^    def remove_all(self):$/;"	kind:member	line:25
+run	../Adafruit_Video_Looper/video_looper.py	/^    def run(self):$/;"	kind:member	line:205
+search_paths	../Adafruit_Video_Looper/directory.py	/^    def search_paths(self):$/;"	kind:member	line:15
+search_paths	../Adafruit_Video_Looper/usb_drive.py	/^    def search_paths(self):$/;"	kind:member	line:26
+setup	../setup.py	/^from setuptools import setup, find_packages$/;"	kind:namespace	line:3
+setup.py	../setup.py	1;"	kind:file	line:1
+setuptools	../ez_setup.py	/^    import setuptools$/;"	kind:namespace	line:116
+shutil	../ez_setup.py	/^import shutil$/;"	kind:namespace	line:17
+signal	../Adafruit_Video_Looper/video_looper.py	/^import signal$/;"	kind:namespace	line:9
+signal_quit	../Adafruit_Video_Looper/video_looper.py	/^    def signal_quit(self, signal, frame):$/;"	kind:member	line:230
+start_monitor	../Adafruit_Video_Looper/usb_drive_mounter.py	/^    def start_monitor(self):$/;"	kind:member	line:50
+stop	../Adafruit_Video_Looper/hello_video.py	/^    def stop(self, block_timeout_sec=None):$/;"	kind:member	line:47
+stop	../Adafruit_Video_Looper/omxplayer.py	/^    def stop(self, block_timeout_sec=None):$/;"	kind:member	line:54
+subprocess	../Adafruit_Video_Looper/hello_video.py	/^import subprocess$/;"	kind:namespace	line:5
+subprocess	../Adafruit_Video_Looper/omxplayer.py	/^import subprocess$/;"	kind:namespace	line:5
+subprocess	../Adafruit_Video_Looper/usb_drive_mounter.py	/^import subprocess$/;"	kind:namespace	line:5
+subprocess	../ez_setup.py	/^import subprocess$/;"	kind:namespace	line:22
+supported_extensions	../Adafruit_Video_Looper/hello_video.py	/^    def supported_extensions(self):$/;"	kind:member	line:23
+supported_extensions	../Adafruit_Video_Looper/omxplayer.py	/^    def supported_extensions(self):$/;"	kind:member	line:26
+sys	../Adafruit_Video_Looper/video_looper.py	/^import sys$/;"	kind:namespace	line:8
+sys	../ez_setup.py	/^import sys$/;"	kind:namespace	line:18
+tempfile	../ez_setup.py	/^import tempfile$/;"	kind:namespace	line:19
+textwrap	../ez_setup.py	/^import textwrap$/;"	kind:namespace	line:24
+time	../Adafruit_Video_Looper/hello_video.py	/^import time$/;"	kind:namespace	line:6
+time	../Adafruit_Video_Looper/omxplayer.py	/^import time$/;"	kind:namespace	line:6
+time	../Adafruit_Video_Looper/usb_drive_mounter.py	/^import time$/;"	kind:namespace	line:6
+time	../Adafruit_Video_Looper/video_looper.py	/^import time$/;"	kind:namespace	line:10
+url	../setup.py	/^      url               = 'https:\/\/github.com\/adafruit\/pi_video_looper',$/;"	kind:variable	line:11
+urlopen	../ez_setup.py	/^        from urllib.request import urlopen$/;"	kind:namespace	line:234
+urlopen	../ez_setup.py	/^        from urllib2 import urlopen$/;"	kind:namespace	line:236
+usb_drive.py	../Adafruit_Video_Looper/usb_drive.py	1;"	kind:file	line:1
+usb_drive_mounter.py	../Adafruit_Video_Looper/usb_drive_mounter.py	1;"	kind:file	line:1
+use_setuptools	../ez_setup.py	/^def use_setuptools(version=DEFAULT_VERSION, download_base=DEFAULT_URL,$/;"	kind:function	line:120
+use_setuptools	../setup.py	/^from ez_setup import use_setuptools$/;"	kind:namespace	line:1
+version	../setup.py	/^      version           = '1.0.0',$/;"	kind:variable	line:6
+video_looper.py	../Adafruit_Video_Looper/video_looper.py	1;"	kind:file	line:1
+videolooper	../Adafruit_Video_Looper/video_looper.py	/^    videolooper = VideoLooper(config_path)$/;"	kind:variable	line:247
+zipfile	../ez_setup.py	/^import zipfile$/;"	kind:namespace	line:20
