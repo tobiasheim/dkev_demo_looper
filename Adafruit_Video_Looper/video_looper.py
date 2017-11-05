@@ -54,6 +54,7 @@ class VideoLooper(object):
         # Load other configuration values.
         self._osd = self._config.getboolean('video_looper', 'osd')
         self._is_random = self._config.getboolean('video_looper', 'is_random')
+        self._playlist_mode = self._config.getboolean('video_looper', 'playlist_mode')
         # Parse string of 3 comma separated values like "255, 255, 255" into 
         # list of ints for colors.
         self._bgcolor = map(int, self._config.get('video_looper', 'bgcolor') \
@@ -133,6 +134,47 @@ class VideoLooper(object):
         # Create a playlist with the sorted list of movies.
         return Playlist(sorted(movies), self._is_random)
 
+    def _load_playlist(self):
+        """Search all the file reader paths for movie files with the provided
+        extensions.
+        """
+        # Get list of paths to search from the file reader.
+        paths = self._reader.search_paths()
+        # Enumerate all movie files inside those paths.
+        movies = []
+        m3u_playlists = []
+
+        for path in paths:
+            # Skip paths that don't exist or are files.
+            if not os.path.exists(path) or not os.path.isdir(path):
+                continue
+            # Ignore hidden files (useful when file loaded on usb
+            # key from an OSX computer
+
+            m3u_playlists.extend(['{0}/{1}'.format(path.rstrip('/'), x) \
+                            for x in os.listdir(path) \
+                            if re.search('\.{0}$'.format("m3u"), x, 
+                                        flags=re.IGNORECASE) and \
+                            x[0] is not '.'])
+
+            for m3u_playlist in m3u_playlists:
+                with open(m3u_playlist) as f:
+                    for line in f:
+                        movies.append('{0}/{1}'.format(path.rstrip('/'), line.rstrip('\r\n')))
+
+
+            # Get the video volume from the file in the usb key
+            sound_vol_file_path = '{0}/{1}'.format(path.rstrip('/'), self._sound_vol_file)
+            if os.path.exists(sound_vol_file_path):
+                with open(sound_vol_file_path, 'r') as sound_file:
+                    sound_vol_string = sound_file.readline()
+                    if self._is_number(sound_vol_string):
+                        self._sound_vol = int(float(sound_vol_string))
+
+        # Create a playlist with the sorted list of movies.
+        return Playlist(movies, self._is_random)
+
+
     def _blank_screen(self):
         """Render a blank screen filled with the background color."""
         self._screen.fill(self._bgcolor)
@@ -205,7 +247,11 @@ class VideoLooper(object):
     def run(self):
         """Main program loop.  Will never return!"""
         # Get playlist of movies to play from file reader.
-        playlist = self._build_playlist()
+        if self._playlist_mode:
+            playlist = self._load_playlist()
+        else:
+            playlist = self._build_playlist()
+        
         self._prepare_to_run_playlist(playlist)
         # Main loop to play videos in the playlist and listen for file changes.
         while self._running:
